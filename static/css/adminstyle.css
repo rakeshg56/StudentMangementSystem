@@ -1,0 +1,80 @@
+.button {
+  position: relative;
+  background: linear-gradient(90deg, #000000, #434343);
+  border: none;
+  font-size: 20px;
+  color: #FFFFFF;
+  padding: 15px 30px;
+  width: 200px;
+  text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #434343, #000000);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.button::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+}
+
+.button:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+
+.addbutton {
+  position: relative;
+  background: linear-gradient(90deg, #000000, #434343);
+  border: none;
+  font-size: 15px;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  width: 100px;
+  text-align: center;
+  transition: all 0.3s ease;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.addbutton:hover {
+  background: linear-gradient(90deg, #434343, #000000);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  transform: translateY(-2px);
+}
+
+.addbutton::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 300%;
+  height: 300%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+}
+
+.addbutton:hover::after {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+
