@@ -86,11 +86,11 @@ DATABASES = {
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'smsproject', #db name
-        'USER': 'postgres',
-        'PASSWORD': 'admin',
+        'NAME': '', #db name
+        'USER': '',
+        'PASSWORD': '',
         'HOST': 'localhost',
-        'PORT': '5433',
+        'PORT': '',
     }
 }
 
